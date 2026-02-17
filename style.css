@@ -1,0 +1,190 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.new-nav {
+    background: rgba(0,0,0,0.85);
+    padding: 18px 0 ;
+}
+
+.new-nav .nav-link:hover {
+    color: rgb(189, 189, 52);
+}
+
+
+.about-img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+#about p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+}
+
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(120deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.hero span {
+    color: #ffd700;
+}
+
+
+
+.resume-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 14px;
+    height: 100%;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+    transition: 0.3s ease;
+}
+
+
+.resume-btn {
+    padding: 12px 34px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 13px;
+}
+
+
+.resume-card:hover {
+    transform: translateY(-6px);
+}
+
+.resume-card h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #0d6efd;
+}
+
+.resume-card .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.resume-card .duration {
+    font-size: 13px;
+    color: #888;
+}
+
+.resume-card .desc {
+    font-size: 14px;
+    margin-top: 6px;
+    color: #555;
+}
+
+.resume-card .points {
+    margin-top: 12px;
+    padding-left: 18px;
+}
+
+.resume-card .points li {
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #444;
+}
+
+
+.section {
+    padding: 90px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 12px;
+    border-radius: 20px;
+}
+
+.project-card {
+    transition: 0.3s;
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+.contact-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 35px;
+}
+
+
+
+
+.about-social {
+  display: flex;
+  gap: 15px;
+}
+
+.social-link {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  text-decoration: none;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.social-link:hover {
+  transform: translateY(-4px);
+  opacity: 0.85;
+}
+
+.linkedin {
+  background-color: #0a66c2;
+}
+
+.github {
+  background-color: #24292e;
+}
+
+.phone {
+  background-color: #16a34a;
+}
+
+
+
