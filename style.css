@@ -187,4 +187,22 @@ body {
 }
 
 
+#contact {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
+
+#contact h2 {
+  letter-spacing: 1px;
+}
+
+#contact .form-control {
+  border-radius: 8px;
+}
+
+#contact .btn {
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+
 
